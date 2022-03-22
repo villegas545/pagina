@@ -1,0 +1,43 @@
+.rectangle {
+    /*   position: relative;
+    overflow: hidden; */
+    /* border-radius: 4px; */
+    /* padding: 0.1rem 3.2rem;
+    margin: auto; */
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+  
+    background: linear-gradient(180deg, #eeeeee 0%, #ebeaea 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    color: rgb(41, 40, 40);
+    text-shadow: 5px 5px 10px rgba(199, 199, 199, 0.4);
+  
+  }
+  .rectangle:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  .rectangle > * {
+    flex: 1 100%;
+  }
+  .video{
+    background-color: aqua;
+    height: 400px;
+  }
+  .title{
+    background-color: blue;
+  }
+  .description{
+    background-color: yellow;
+  }
+  .asideleft{
+    flex: 2;
+    background-color: red;
+  }
+  .asideright{
+    flex: 5;
+    background-color: green;
+  }
+  

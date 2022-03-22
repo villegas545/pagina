@@ -1,0 +1,38 @@
+.wrapper{
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center; 
+}
+.wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+.header{
+    background-color: tomato;
+    padding: 20em;
+}
+.aside{
+    background-color: gold;
+    flex: 2;
+}
+.article{
+    background-color: deepskyblue;
+    flex: 4;
+}
+.footer{
+    background-color: lightgreen;
+}
+.otro{
+    background-color: hotpink;
+    flex: 1;
+}
+.unomas{
+    background-color: lightblue;
+    flex: 1;
+}
+
+
+body{
+    padding: 2em; 
+}
